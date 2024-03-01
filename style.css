@@ -1,0 +1,32 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+.container{
+    text-align: center;
+    
+}
+
+#img{
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    border-radius: 4px solid black;
+}
+
+#results{
+    color: red;
+    margin-top: 2%;
+    font-size: large;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    .container {
+        padding: 0 20px; /* Add padding to container for better readability */
+    }
+}
